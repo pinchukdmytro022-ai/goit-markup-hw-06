@@ -376,8 +376,7 @@ img{
 }
 
 .contacts{
-    display: block;
-    margin-left: auto;
+    display: none
 }
 
 .contacts-link:hover,
@@ -1026,6 +1025,7 @@ img{
     flex-direction: column;
     display: flex;
     width: 100%;
+    gap: 16px;
 }
 
 .footer-button-form{
