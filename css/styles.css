@@ -298,7 +298,7 @@ img{
     margin-right: auto;
 }
 
-.mobile-social-links.link{
+.mobile-social-links .link{
     width: 40px;
     height: 40px;
     background-color: #4d5ae5;
@@ -309,7 +309,7 @@ img{
     justify-content: center;
 }
 
-.mobile-social-links.icon{
+.mobile-social-links .icon{
     fill: #f4f4fd;
 }
 
@@ -514,7 +514,7 @@ img{
     text-transform: uppercase;
     text-decoration: none;
     align-items: center;
-    color: #f4f4fd;
+    color: #4d5ae5;
     display: block;
     width: max-content;
     margin: 0 auto;
@@ -531,7 +531,7 @@ img{
 }
 
 .logo-studio-sec{
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .our-team-li{
