@@ -673,6 +673,10 @@ img{
         font-weight: 400;
     }
 
+    .section-one-item{
+        width: calc((100% - 72px) / 4);
+    }
+
     .section-one-icon{
         display: flex;
         width: auto;
