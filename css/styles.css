@@ -53,8 +53,7 @@ img{
 }
 
 .logo-header{
-    padding: 24px 0;
-    margin-right: 76px;
+    padding: 16px 0;
 }
 
 .logo-studio{
@@ -70,6 +69,14 @@ img{
 .header-nav-icon{
     display: block;
     fill: #2f2f37;
+}
+
+.nav-list{
+    display: none;
+}
+
+.contacts{
+    display: none
 }
 
 @media screen and (min-width: 768px) {
@@ -161,6 +168,7 @@ img{
         color: #404bbf;
     }
 }
+
 @media screen and (min-width: 1158px) {
     .logo-header{
         margin-right: 76px;
@@ -375,10 +383,6 @@ img{
     cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts{
-    display: none
-}
-
 .contacts-link:hover,
 .contacts-link:focus{
     color: #404bbf
@@ -413,6 +417,18 @@ img{
 .section-effective-sol-button:hover,
 .section-effective-sol-button:focus{
     background-color: #404bbf;
+}
+
+.section-effective-sol{
+    position: relative;
+    overflow: hidden;
+    padding: 72px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mobile.jpg);
+    max-width: 1440px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 @media screen and (min-resolution: 192dpi){
@@ -456,18 +472,6 @@ img{
     .section-effective-sol{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-desktop-2x.jpg);
     }
-}
-
-.section-effective-sol{
-    position: relative;
-    overflow: hidden;
-    padding: 72px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mobile.jpg);
-    max-width: 1440px;
-    margin: 0 auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .our-team-title{
@@ -560,10 +564,6 @@ img{
     align-items: center;
 }
 
-.nav-list{
-    display: none;
-}
-
 .contacts-list{
     display: flex;
     align-items: center;
@@ -602,7 +602,6 @@ img{
     color: #2e2f42;
     margin-bottom: 8px;
     text-align: center;
-    padding: 0 16px;
 }
 
 .section-one-text{
@@ -611,7 +610,6 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 0 16px;
 }
 
 .section-one-list{
@@ -744,7 +742,6 @@ img{
 .our-portfolio-card{
     width: 100%;
     background-color: #ffffff;
-    box-shadow: none;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -869,7 +866,7 @@ img{
 }
 
 .our-portfolio-card:hover{
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: none;
 }
 
 .our-portfolio-card:hover .overlay-text{
@@ -1165,7 +1162,7 @@ img{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 408px;
+    width: 288px;
     min-height: 584px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcfcfc;
@@ -1355,6 +1352,21 @@ img{
     .modal{
         width: 408px;
         max-height: 584px;
-        padding: 72px 24px 24px;
+        padding: 72px 24px 24px 24px;
+    }
+
+    .modal-text{
+        max-width: 360px;
+    }
+
+    .label-text-modal{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .modal-input{
+        padding-left: 38px;
+        padding-right: 19px;
     }
 }
