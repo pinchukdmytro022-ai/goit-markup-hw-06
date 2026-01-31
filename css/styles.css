@@ -76,7 +76,15 @@ img{
 }
 
 .contacts{
-    display: none
+    display: none;
+    font-style: normal;
+}
+
+.contacts-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
 }
 
 @media screen and (min-width: 768px) {
@@ -366,12 +374,6 @@ img{
     border-radius: 2px;
 }
 
-.contacts-list{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 12px;
-}
 
 .contacts-link{
     display: inline-block;
@@ -564,11 +566,6 @@ img{
     align-items: center;
 }
 
-.contacts-list{
-    display: flex;
-    align-items: center;
-}
-
 .container-effective-sol{
     display: flex;
     flex-direction: column;
@@ -742,7 +739,7 @@ img{
 .our-portfolio-card{
     width: 100%;
     background-color: #ffffff;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-portfolio-info{
